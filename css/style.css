@@ -30,11 +30,16 @@ a {
     width: 50%;
     padding: 0 15px;
 }
-
+.col-4{
+    width: 33.3333%;
+    padding: 0 15px;
+}
 .header {
     position: absolute;
+    padding: 20px 0;
     top: 25px;
     width: 100%;
+
 }
 
 .header-container {
@@ -120,7 +125,6 @@ a {
     display: flex;
     padding-bottom: 30px;
 
-
 }
 
 .icon-box {
@@ -132,7 +136,6 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
     border: 2px solid #2dc997;
     margin-right: 20px;
 }
@@ -147,6 +150,116 @@ a {
     font-size: 14px;
 }
 
-.about-img {
+.facts {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f3f2f2;
+}
 
+.section-title {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.section-desc {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #999;
+
+}
+
+.facts-stats {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.facts-item {
+    text-align: center;
+}
+
+.facts-num {
+    font-size: 48px;
+    color: #2dc997;
+}
+
+.facts-title {
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #999;
+}
+.services{
+    padding: 60px 0;
+    text-align: center;
+}
+.services-item{
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+}
+.services-title{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.services-subtitle{
+    font-size: 14px;
+    line-height: 24px;
+}
+.services-box{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -36px;
+    transition: 0.2s;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: #2dc997;
+}
+.services-box:hover{
+    background-color: #fff;
+    border: 2px solid #2dc997;
+}
+.action{
+    background: rgba(0, 0, 0, 0.5) url("../images/call-to-action-bg.jpg") fixed no-repeat center/cover;
+    background-blend-mode: darken;
+    padding: 100px 0 120px;
+
+}
+.action-title{
+    color: white;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.action-subtitle{
+    color: white;
+    margin-bottom: 30px;
+}
+.action-item{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.action-btn{
+    text-align: center;
 }
