@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -7,11 +7,58 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.header {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 150px;
+}
+
+.menu-link {
+    color: #fff;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.menu-link:hover {
+    border-bottom: 1px solid #2dc997;
 }
 
 .hero {
@@ -24,24 +71,83 @@ a {
     justify-content: center;
     align-items: center;
 }
-.hero-title{
+
+.hero-title {
     font-size: 48px;
-    font-weight: 900;
     margin-bottom: 10px;
 }
-.hero-desc{
+
+.hero-desc {
     font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 }
-.btn{
+
+.btn {
     display: inline-block;
     color: #fff;
-    font-size:  19px;
+    font-size: 19px;
     font-weight: 500;
     border: 1px solid #ffff;
     border-radius: 30px;
-    padding: 10px 25px;
+    padding: 10px 30px;
     text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #2dc997;
+    transition: 0.5s;
+    border: none;
+}
+
+.about {
+    padding: 60px 0;
+
+}
+
+.about-title {
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-subtitle {
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.box {
+    display: flex;
+    padding-bottom: 30px;
+
+
+}
+
+.icon-box {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #2dc997;
+    margin-right: 20px;
+}
+
+.icon-desc {
+    color: #111;
+    font-size: 20px;
+}
+
+.icon-subtitle {
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.about-img {
+
 }
