@@ -30,10 +30,12 @@ a {
     width: 50%;
     padding: 0 15px;
 }
-.col-4{
+
+.col-4 {
     width: 33.3333%;
     padding: 0 15px;
 }
+
 .header {
     position: absolute;
     padding: 20px 0;
@@ -123,6 +125,8 @@ a {
 
 .box {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 30px;
 
 }
@@ -193,11 +197,13 @@ a {
     font-size: 14px;
     color: #999;
 }
-.services{
+
+.services {
     padding: 60px 0;
     text-align: center;
 }
-.services-item{
+
+.services-item {
     padding: 50px 20px;
     margin-bottom: 50px;
     text-align: center;
@@ -206,17 +212,20 @@ a {
     position: relative;
     background: #fafafa;
 }
-.services-title{
+
+.services-title {
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
-.services-subtitle{
+
+.services-subtitle {
     font-size: 14px;
     line-height: 24px;
 }
-.services-box{
+
+.services-box {
     width: 72px;
     height: 72px;
     border-radius: 50%;
@@ -234,32 +243,135 @@ a {
     text-align: center;
     background: #2dc997;
 }
-.services-box:hover{
+
+.services-box:hover {
     background-color: #fff;
     border: 2px solid #2dc997;
 }
-.action{
+
+.action {
     background: rgba(0, 0, 0, 0.5) url("../images/call-to-action-bg.jpg") fixed no-repeat center/cover;
     background-blend-mode: darken;
     padding: 100px 0 120px;
 
 }
-.action-title{
+
+.action-title {
     color: white;
     text-transform: capitalize;
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.action-subtitle{
+
+.action-subtitle {
     color: white;
     margin-bottom: 30px;
 }
-.action-item{
+
+.action-item {
     display: flex;
     justify-content: end;
     align-items: center;
 }
-.action-btn{
+
+.action-btn {
     text-align: center;
+}
+
+.portfolio {
+    padding: 50px 0;
+}
+.portfolio-item{
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.card{
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+    width: 100%;
+    z-index: 3;
+    transition: 0.5s;
+    background: #2dc997;
+    padding: 15px 20px;
+    color: white;
+}
+.portfolio-item:hover .card{
+    bottom: 0;
+}
+.portfolio-img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team {
+    padding: 50px 0;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.team-item{
+    text-align: center;
+}
+.team-title {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+
+}
+
+.team-subtitle {
+    font-style: italic;
+    font-size: 13px;
+
+}
+
+.team-img {
+    max-width: 100%;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 260px;
+
+}
+.contact{
+    padding: 50px 0;
+}
+.form{
+    align-items: center;
+}
+.contact-form label{
+    margin-right: 40px;
+}
+.contact-btn{
+    padding: 10px 20px;
+    background-color: #2dc997;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.footer {
+    background: #343b40;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-subtitle {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #2dc997;
 }
