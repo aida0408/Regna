@@ -294,7 +294,7 @@ a {
     bottom: -100px;
     width: 100%;
     z-index: 3;
-    transition: 0.5s;
+    transition: 0.4s;
     background: #2dc997;
     padding: 15px 20px;
     color: white;
@@ -306,8 +306,11 @@ a {
     max-width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: 0.8s;
 }
-
+.portfolio-item:hover .portfolio-img{
+    transform: translateY(-20px);
+}
 .team {
     padding: 50px 0;
 }
