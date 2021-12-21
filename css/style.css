@@ -396,7 +396,7 @@ a {
     padding: 10px 20px;
     background-color: #2dc997;
     color: white;
-
+    cursor: pointer;
     border: none;
 }
 
@@ -411,7 +411,7 @@ a {
 .footer-subtitle {
     padding-top: 10px;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     color: #ccc;
 }
 
