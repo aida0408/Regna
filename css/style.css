@@ -255,7 +255,10 @@ a {
     text-align: center;
     background: #2dc997;
 }
-
+.services-box i{
+    color: #ffffff;
+    font-size: 34px;
+}
 .services-box:hover {
     background-color: #fff;
     border: 2px solid #2dc997;
