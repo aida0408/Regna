@@ -150,7 +150,13 @@ a {
     color:#2dc997;
     font-size: 34px;
 }
+.icon-box i:hover{
+    color: white;
+}
+.icon-box:hover{
+    background-color: #2dc997;
 
+}
 .icon-desc {
     color: #111;
     font-size: 18px;
@@ -215,7 +221,7 @@ a {
     text-align: center;
 }
 
-.services-item {
+.services-box{
     padding: 50px 20px;
     margin-bottom: 50px;
     text-align: center;
@@ -237,7 +243,7 @@ a {
     line-height: 24px;
 }
 
-.services-box {
+.services-icon {
     width: 72px;
     height: 72px;
     border-radius: 50%;
@@ -255,13 +261,18 @@ a {
     text-align: center;
     background: #2dc997;
 }
-.services-box i{
+.services-icon i{
     color: #ffffff;
-    font-size: 34px;
+    font-size: 30px;
 }
-.services-box:hover {
+
+.services-icon:hover i{
+    color: #2dc997;
+}
+.services-icon:hover  {
     background-color: #fff;
     border: 2px solid #2dc997;
+
 }
 
 .action {
@@ -356,6 +367,7 @@ a {
 .team-subtitle {
     font-style: italic;
     font-size: 13px;
+    margin-bottom: 15px;
 
 }
 
@@ -364,6 +376,14 @@ a {
     margin-bottom: 15px;
     overflow: hidden;
     height: 260px;
+
+}
+.team-icon{
+    font-size: 24px;
+    color: grey;
+}
+.team-icon:hover{
+    color: blue;
 
 }
 
