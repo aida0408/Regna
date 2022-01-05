@@ -1,0 +1,99 @@
+@media (max-width: 1200px) {
+    /*993 - 1200 */
+    .container {
+        max-width: 960px;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    /*796 - 992*/
+    .container {
+        max-width: 740px;
+    }
+
+    .col-3, .col-4 {
+        width: 50%;
+    }
+    .hero-desc{
+        font-size: 21px;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 8px 20px;
+
+    }
+    .icon-box{
+        width: 58px;
+        min-width: 58px;
+        height: 58px;
+        margin-right: 13px;
+    }
+    .icon-desc{
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    .about-title{
+        font-size: 28px;
+        margin-bottom: 13px;
+    }
+    .section-title{
+        font-size: 28px;
+    }
+    .section-desc{
+        margin-bottom: 50px;
+    }
+    .facts, .services, .portfolio, .team{
+        padding: 60px 0 45px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    /*577 - 768*/
+    .container {
+        max-width: 540px;
+    }
+    .hero-title {
+        font-size: 30px;
+    }
+    .hero-desc{
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 5px 16px;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .section-desc{
+        margin-bottom: 20px;
+    }
+    .facts-num {
+        font-size: 28px;
+    }
+    .facts-title {
+        font-size: 9px;
+    }
+    .section-desc {
+        margin-bottom: 7px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    /*328 - 576 */
+    .container {
+        max-width: 340px;
+    }
+    .col-3, .col-4 {
+        width: 100%;
+    }
+
+}
