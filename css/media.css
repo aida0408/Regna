@@ -95,5 +95,38 @@
     .col-3, .col-4 {
         width: 100%;
     }
+    .hero-title {
+        font-size: 25px;
+    }
+    .hero-desc{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .btn {
+        font-size: 10px;
+        padding: 4px 12px;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .facts, .services, .portfolio, .team{
+        padding: 40px 0 25px;
+    }
+    .section-desc{
+        margin-bottom: 10px;
+    }
+    .facts-num {
+        font-size: 24px;
+    }
+    .facts-title {
+        font-size: 6px;
+    }
+    .section-desc {
+        margin-bottom: 7px;
+    }
 
 }
+
