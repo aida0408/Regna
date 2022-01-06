@@ -17,23 +17,23 @@
       <img src="./images/logo.png" alt="logo" class="logo-img">
     </a>
     <nav class="menu">
-      <a href="#" class="menu-link">Home</a>
-      <a href="#" class="menu-link">About</a>
-      <a href="#" class="menu-link">Services</a>
-      <a href="#" class="menu-link">Portfolio</a>
-      <a href="#" class="menu-link">Team</a>
-      <a href="#" class="menu-link">Contact</a>
+      <a href="#hero" class="menu-link">Home</a>
+      <a href="#about" class="menu-link">About</a>
+      <a href="#services" class="menu-link">Services</a>
+      <a href="#portfolio" class="menu-link">Portfolio</a>
+      <a href="#team" class="menu-link">Team</a>
+      <a href="#contacts" class="menu-link">Contact</a>
     </nav>
   </div>
 </header>
-<section class="hero">
+<section class="hero" id="hero">
   <div class="container">
     <h1 class="hero-title">WELCOME TO REGNA</h1>
     <h2 class="hero-desc">We are team of talented designers making websites with Bootstrap</h2>
     <a href="#" class="btn">get started</a>
   </div>
 </section>
-<section class="about">
+<section class="about" id="about">
   <div class="container">
     <div class="row">
       <div class="col-6">
@@ -108,7 +108,7 @@
     </ul>
   </div>
 </section>
-<section class="services">
+<section class="services" id="services">
   <div class="container">
     <h3 class="section-title">SERVICES</h3>
     <p class="section-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
@@ -188,11 +188,17 @@
     </div>
   </div>
 </section>
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
   <div class="container">
     <h3 class="section-title">PORTFOLIO</h3>
     <p class="section-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
     </p>
+    <div class="portfolio-btn">
+      <button class="portfolio-button">All</button>
+      <button class="portfolio-button">App</button>
+      <button class="portfolio-button">Card</button>
+      <button class="portfolio-button">Web</button>
+    </div>
     <div class="row">
       <div class="col-4">
         <div class="portfolio-item">
@@ -278,7 +284,7 @@
     </div>
   </div>
 </section>
-<section class="team">
+<section class="team" id="team">
   <div class="container">
     <h3 class="section-title">TEAM</h3>
     <p class="section-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
@@ -340,35 +346,76 @@
     </div>
   </div>
 </section>
-<section class="contact">
-  
+<section class="contact" id="contacts">
   <div class="container">
     <h3 class="section-title">CONTACT</h3>
     <p class="section-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
     </p>
-
-
-    <div class="info-form">
-      <div class="contact-info">
-        <p>A108 Adam Street New York, NY 535022</p>
-        <p>info@example.com</p>
-        <p>+1 5589 55488 55s</p>
-      </div>
-      <form>
-        <div class="form-group">
-          <input type="text" placeholder="Your name" id="adress" required>
-          <input type="text" placeholder="Your Email" id="email" required>
-          <input type="text" placeholder="Subject" id="tel" required>
-          <textarea name="Message" id="" cols="30" rows="10">Message</textarea>
+  </div>
+    <div>
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d35882.999137357074!2d37.
+      7862064!3d55.798665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1640036050184!5m2!1sru!2sru"
+              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+  </div>
+  <div class="container">
+    <div class="row justify-center">
+      <div class="col-3 col-3-contacts">
+        <div class="contacts-item">
+          <div class="contacts-icon">
+            <i class='bx bxs-edit-location'></i>
+          </div>
+          <div class="contacts-info">
+            <p class="contacts-desc">A108 Adam Street New York, NY 535022</p>
+          </div>
+          <div class="contacts-icon">
+            <i class='bx bx-mail-send' ></i>
+          </div>
+          <div class="contacts-info">
+            <p class="contacts-desc">info@example.com</p>
+          </div>
+          <div class="contacts-icon">
+            <i class='bx bx-mobile-alt'></i>
+          </div>
+          <div class="contacts-info">
+            <p class="contacts-desc">+1 5589 55488 55s</p>
+          </div>
         </div>
-        <button type="submit" class="contact-btn">Send Message</button>
-      </form>
+        <div class="socials">
+          <a href="#" class="socials-item bx bxl-twitter"></a>
+          <a href="#" class="socials-item bx bxl-facebook-circle"></a>
+          <a href="#" class="socials-item bx bxl-instagram"></a>
+          <a href="#" class="socials-item bx bxl-instagram"></a>
+          <a href="#" class="socials-item bx bxl-linkedin"></a>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="info-form">
+          <form>
+            <div class="form-group">
+              <input type="text" placeholder="Your name" id="adress" required>
+              <input type="text" placeholder="Your Email" id="email" required>
+              <input type="text" placeholder="Subject" id="tel" required>
+              <textarea name="Message" id="" cols="30" rows="10">Message</textarea>
+            </div>
+            <button type="submit" class="contact-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
     </div>
+
+  </div>
+
+
+
+
   </div>
 </section>
 <footer class="footer">
   <p class="footer-title">© Copyright Regna. All Rights Reserved</p>
   <p class="footer-subtitle">Designed by <a href="#">BootstrapMade</a></p>
 </footer>
+
+<script src="./js/script.js"></script>
 </body>
 </html>

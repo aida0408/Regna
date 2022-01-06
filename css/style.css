@@ -38,10 +38,12 @@ a {
 }
 
 .header {
-    position: absolute;
-    padding: 20px 0;
-    top: 25px;
+    position: fixed;
+    padding-top: 25px;
     width: 100%;
+    height: 72px;
+    background: rgba(52, 59, 64, 0.9);
+    z-index: 3;
 
 }
 
@@ -159,15 +161,19 @@ a {
     flex-direction: column;
     border: 2px solid #2dc997;
     margin-right: 20px;
+    color: #2dc997;
+    transition: 0.6s;
 
 }
 .icon-box i{
-    color:#2dc997;
     font-size: 34px;
 }
-.icon-box i:hover{
-    color: white;
+
+.box:hover .icon-box  {
+    background-color: #2dc997;
+    color:white;
 }
+
 .icon-box:hover{
     background-color: #2dc997;
 
@@ -267,7 +273,7 @@ a {
     right: 0;
     margin: auto;
     top: -36px;
-    transition: 0.2s;
+    transition: 0.6s;
     border: 6px solid #fff;
     display: flex;
     justify-content: center;
@@ -275,13 +281,16 @@ a {
     flex-direction: column;
     text-align: center;
     background: #2dc997;
+    color: #ffffff;
 }
 .services-icon i{
-    color: #ffffff;
+
     font-size: 30px;
 }
 
-.services-icon:hover i{
+.services-box:hover .services-icon{
+    background-color: white;
+    border: 2px solid #2dc997;
     color: #2dc997;
 }
 .services-icon:hover  {
@@ -324,7 +333,27 @@ a {
     background: #f7f7f7;
     padding: 80px 0;
 }
+.portfolio-btn {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
+.portfolio-button {
+    padding: 12px 18px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    color: #666;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.portfolio-button:hover{
+    background-color: #2dc997;
+    color: white;
+}
 .portfolio-item {
     height: 300px;
     position: relative;
@@ -407,26 +436,52 @@ a {
     background: #f7f7f7;
     padding: 80px 0 40px;
 }
-
-.form {
-    display: flex;
-
+.map{
+    margin-bottom: 30px;
 }
-
-.form {
-
+.col-3-contacts{
+    margin-bottom: 30px;
 }
-
-.contact-info {
+.contacts-desc{
+    padding: 0 0 10px 50px;
     margin-bottom: 20px;
+    line-height: 22px;
+    font-size: 14px;
 }
+.contacts-icon{
+    font-size: 32px;
+    color: #2dc997;
+    float: left;
+    line-height: 0;
 
-.info-form {
+}
+.socials{
+    display: flex;
+}
+.socials-item{
+    font-size: 18px;
+    background: #333;
+    color: #fff;
+    line-height: 50%;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
 
+}
+.socials-item:hover{
+    color: #2dc997;
+    background: white;
+    border: 1px solid #333
 
+}
+.info-form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
 }
 
 .form-group input {
