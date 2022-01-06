@@ -52,6 +52,14 @@
 
 @media (max-width: 768px) {
     /*577 - 768*/
+    .burger{
+        font-size: 28px;
+        color: white;
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
     .container {
         max-width: 540px;
     }

@@ -519,3 +519,8 @@ a {
     text-decoration: none;
     color: #2dc997;
 }
+.burger{
+    font-size: 28px;
+    color: white;
+    display: none;
+}
