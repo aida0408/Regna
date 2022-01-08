@@ -524,3 +524,6 @@ a {
     color: white;
     display: none;
 }
+.o-hidden{
+    overflow: hidden;
+}
