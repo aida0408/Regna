@@ -74,10 +74,10 @@ a {
     position: absolute;
     bottom: -5px;
     transform: scale(0);
-    transition: 0.4s;
+    transition: 0.5s;
 
 }
-.menu-link:hover{
+.menu-link:hover:before{
     transform: scale(1);
 }
 
@@ -121,7 +121,7 @@ a {
 .btn:hover {
     background-color: #2dc997;
     transition: 0.5s;
-    border: none;
+    border: 1px solid #2dc997;
 }
 
 .about {
@@ -325,8 +325,15 @@ a {
     align-items: center;
 }
 
-.action-btn {
-    text-align: center;
+.action-button {
+   min-width: 218px;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+
 }
 
 .portfolio {
@@ -425,7 +432,8 @@ a {
 
 .team-icon{
     font-size: 24px;
-    color: grey;
+
+    color: #b3b3b3;
 }
 .team-icon:hover{
     color: blue;
@@ -439,8 +447,14 @@ a {
 .map{
     margin-bottom: 30px;
 }
-.col-3-contacts{
-    margin-bottom: 30px;
+
+.justify-center{
+    justify-content: center;
+    margin-top: 30px;
+}
+.col-5{
+    width: 41.6666%;
+    padding: 0 15px;
 }
 .contacts-desc{
     padding: 0 0 10px 50px;
@@ -481,15 +495,19 @@ a {
 .info-form{
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
+
 }
 
-.form-group input {
+.info-btn {
     display: block;
     box-shadow: none;
     font-size: 14px;
     padding: 5px 10px;
     margin-bottom: 20px;
+    width: 100%;
+}
+.info-area{
+    width: 100%;
 }
 
 .contact-btn {
@@ -498,6 +516,7 @@ a {
     color: white;
     cursor: pointer;
     border: none;
+    margin-left: 30%;
 }
 
 .footer {
