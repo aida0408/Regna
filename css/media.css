@@ -119,6 +119,7 @@
     .section-desc {
         margin-bottom: 20px;
     }
+
     .action-title {
         text-align: center;
         font-size: 24px;
@@ -128,12 +129,14 @@
     .action-subtitle {
         text-align: center;
     }
+
     .action-button {
         min-width: 120px;
         padding: 6px 16px;
         margin-left: 89px;
     }
-    .action.col-3{
+
+    .action.col-3 {
         width: 100%;
     }
 
@@ -157,9 +160,12 @@
     .container {
         max-width: 340px;
     }
+    .logo-img {
+        width: 100px;
+    }
 
-    .col-3, .col-4 {
-        width: 50%;
+    .hero {
+        height: 80vh;
     }
 
     .hero-title {
@@ -176,7 +182,7 @@
         padding: 4px 12px;
     }
 
-    .col-6 {
+    .col-4, .col-6, .col-9, .col-3, .col-5 {
         width: 100%;
     }
 
@@ -208,13 +214,6 @@
         margin-top: 30px;
     }
 
-    .col-9 {
-        width: 100%;
-    }
-
-    .col-3 {
-        width: 100%;
-    }
 
     .action-title {
         text-align: center;
@@ -231,6 +230,10 @@
         padding: 6px 16px;
         margin-left: 89px;
     }
+    .info-form{
+        margin-top: 30px;
+    }
+
 }
 
 
