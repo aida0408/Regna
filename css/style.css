@@ -66,7 +66,8 @@ a {
     position: relative;
 
 }
-.menu-link:before{
+
+.menu-link:before {
     content: "";
     width: 100%;
     height: 2px;
@@ -77,7 +78,8 @@ a {
     transition: 0.5s;
 
 }
-.menu-link:hover:before{
+
+.menu-link:hover:before {
     transform: scale(1);
 }
 
@@ -165,19 +167,21 @@ a {
     transition: 0.6s;
 
 }
-.icon-box i{
+
+.icon-box i {
     font-size: 34px;
 }
 
-.box:hover .icon-box  {
+.box:hover .icon-box {
     background-color: #2dc997;
-    color:white;
+    color: white;
 }
 
-.icon-box:hover{
+.icon-box:hover {
     background-color: #2dc997;
 
 }
+
 .icon-desc {
     color: #111;
     font-size: 18px;
@@ -190,9 +194,11 @@ a {
     font-size: 14px;
     color: #666666;
 }
-.about-img{
+
+.about-img {
     min-width: 100%;
 }
+
 .facts {
     padding: 80px 0;
     text-align: center;
@@ -242,7 +248,7 @@ a {
     text-align: center;
 }
 
-.services-box{
+.services-box {
     padding: 50px 20px;
     margin-bottom: 50px;
     text-align: center;
@@ -283,20 +289,32 @@ a {
     background: #2dc997;
     color: #ffffff;
 }
-.services-icon i{
+
+.services-icon i {
 
     font-size: 30px;
 }
 
-.services-box:hover .services-icon{
+.services-box:hover .services-icon {
     background-color: white;
     border: 2px solid #2dc997;
     color: #2dc997;
 }
-.services-icon:hover  {
+
+.services-icon:hover {
     background-color: #fff;
     border: 2px solid #2dc997;
 
+}
+
+.col-9 {
+    width: 75%;
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
 }
 
 .action {
@@ -319,20 +337,15 @@ a {
     margin-bottom: 30px;
 }
 
-.action-item {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
 .action-button {
-   min-width: 218px;
+    min-width: 218px;
     padding: 8px 30px;
     border-radius: 50px;
     transition: 0.5s;
-    margin: 10px;
     border: 2px solid #fff;
     color: #fff;
+    margin-top: 60px;
+    margin-left: 50px;
 
 }
 
@@ -340,6 +353,7 @@ a {
     background: #f7f7f7;
     padding: 80px 0;
 }
+
 .portfolio-btn {
     text-align: center;
     margin-bottom: 30px;
@@ -357,10 +371,12 @@ a {
     margin-left: 10px;
     transition: 0.3s;
 }
-.portfolio-button:hover{
+
+.portfolio-button:hover {
     background-color: #2dc997;
     color: white;
 }
+
 .portfolio-item {
     height: 300px;
     position: relative;
@@ -430,12 +446,12 @@ a {
 
 }
 
-.team-icon{
+.team-icon {
     font-size: 24px;
-
     color: #b3b3b3;
 }
-.team-icon:hover{
+
+.team-icon:hover {
     color: blue;
 
 }
@@ -444,35 +460,41 @@ a {
     background: #f7f7f7;
     padding: 80px 0 40px;
 }
-.map{
+
+.map {
     margin-bottom: 30px;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
     margin-top: 30px;
 }
-.col-5{
+
+.col-5 {
     width: 41.6666%;
     padding: 0 15px;
 }
-.contacts-desc{
+
+.contacts-desc {
     padding: 0 0 10px 50px;
     margin-bottom: 20px;
     line-height: 22px;
     font-size: 14px;
 }
-.contacts-icon{
+
+.contacts-icon {
     font-size: 32px;
     color: #2dc997;
     float: left;
     line-height: 0;
 
 }
-.socials{
+
+.socials {
     display: flex;
 }
-.socials-item{
+
+.socials-item {
     font-size: 18px;
     background: #333;
     color: #fff;
@@ -486,13 +508,15 @@ a {
     margin-right: 10px;
 
 }
-.socials-item:hover{
+
+.socials-item:hover {
     color: #2dc997;
     background: white;
     border: 1px solid #333
 
 }
-.info-form{
+
+.info-form {
     display: flex;
     flex-direction: column;
 
@@ -506,7 +530,8 @@ a {
     margin-bottom: 20px;
     width: 100%;
 }
-.info-area{
+
+.info-area {
     width: 100%;
 }
 
@@ -538,11 +563,13 @@ a {
     text-decoration: none;
     color: #2dc997;
 }
-.burger{
+
+.burger {
     font-size: 28px;
     color: white;
     display: none;
 }
-.o-hidden{
+
+.o-hidden {
     overflow: hidden;
 }
