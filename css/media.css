@@ -136,10 +136,6 @@
         margin-left: 89px;
     }
 
-    .action.col-3 {
-        width: 100%;
-    }
-
 
     .facts-num {
         font-size: 28px;
@@ -160,6 +156,7 @@
     .container {
         max-width: 340px;
     }
+
     .logo-img {
         width: 100px;
     }
@@ -230,8 +227,16 @@
         padding: 6px 16px;
         margin-left: 89px;
     }
-    .info-form{
+
+    .info-form {
         margin-top: 30px;
+    }
+
+    .info-btn {
+        width: 95%;
+    }
+    .info-area{
+        width: 95%;
     }
 
 }
