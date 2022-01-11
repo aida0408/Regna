@@ -13,9 +13,10 @@
         max-width: 740px;
     }
 
-    .col-3, .col-4 {
+    .col-4, .col-3 {
         width: 50%;
     }
+
 
     .hero-desc {
         font-size: 21px;
@@ -64,7 +65,7 @@
         font-size: 28px;
         color: white;
         display: block;
-        z-index: 2;
+        z-index: 3;
     }
 
     .menu {
@@ -103,7 +104,11 @@
         padding: 5px 16px;
     }
 
-    .col-6 {
+    .col-3 {
+        width: 50%;
+    }
+
+    .col-6, .col-9 {
         width: 100%;
     }
 
@@ -114,6 +119,24 @@
     .section-desc {
         margin-bottom: 20px;
     }
+    .action-title {
+        text-align: center;
+        font-size: 24px;
+
+    }
+
+    .action-subtitle {
+        text-align: center;
+    }
+    .action-button {
+        min-width: 120px;
+        padding: 6px 16px;
+        margin-left: 89px;
+    }
+    .action.col-3{
+        width: 100%;
+    }
+
 
     .facts-num {
         font-size: 28px;
@@ -136,7 +159,7 @@
     }
 
     .col-3, .col-4 {
-        width: 100%;
+        width: 50%;
     }
 
     .hero-title {
@@ -184,31 +207,30 @@
     .team-item {
         margin-top: 30px;
     }
+
+    .col-9 {
+        width: 100%;
+    }
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .action-title {
+        text-align: center;
+        font-size: 24px;
+
+    }
+
+    .action-subtitle {
+        text-align: center;
+    }
+
+    .action-button {
+        min-width: 120px;
+        padding: 6px 16px;
+        margin-left: 89px;
+    }
 }
 
-.col-9 {
-    width: 100%;
-}
-
-.col-3 {
-    width: 100%;
-}
-
-.action-title {
-    text-align: center;
-    font-size: 24px;
-
-}
-
-.action-subtitle {
-    text-align: center;
-}
-
-.action-button {
-    min-width: 120px;
-    padding: 6px 16px;
-    margin-left: 89px;
-
-
-}
 
