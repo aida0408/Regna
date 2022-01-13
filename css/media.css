@@ -61,29 +61,40 @@
 
 @media (max-width: 768px) {
     /*577 - 768*/
+    .menu-link {
+        margin-bottom: 15px;
+        font-size: 20px;
+        border: 2px solid;
+        padding: 5px 9px;
+        border-radius: 14px;
+    }
+
     .burger {
-        font-size: 28px;
-        color: white;
+
         display: block;
         z-index: 3;
     }
 
     .menu {
-        display: none;
-    }
-
-    .menu.show {
         background-color: #343b40;
         position: fixed;
         width: 100%;
         height: 100%;
-        left: 100%;
+        left: -100%;
         top: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        transition: 0.2s;
+        transition: 0.5s;
+
+    }
+
+    .menu.show {
+
+        left: 0;
+
+
     }
 
     .container {
@@ -161,9 +172,6 @@
         width: 100px;
     }
 
-    .hero {
-        height: 80vh;
-    }
 
     .hero-title {
         font-size: 25px;
@@ -236,7 +244,8 @@
     .info-btn {
         width: 95%;
     }
-    .info-area{
+
+    .info-area {
         width: 95%;
     }
 
