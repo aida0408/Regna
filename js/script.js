@@ -13,6 +13,6 @@ myBurger.addEventListener('click', () => {
 menuLinks.forEach(oneLink => {
     oneLink.addEventListener('click', () => {
         myMenu.classList.remove('show')
-        document.body.classList.remove('o-hidden')
+        document.body.classList.toggle('o-hidden')
     })
 })
